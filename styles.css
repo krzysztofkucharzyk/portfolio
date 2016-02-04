@@ -71,11 +71,13 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid #E2B82A;
   transition: all .5s;
 }
+
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+  border-color: rgba(0, 56, 118, 0.7);
 }
 .tag {
   background-color: #efefef;
@@ -84,11 +86,13 @@ header .profile-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
-.location {
-  background-color: #222;
-  color: yellow;
 }
+
+.location {
+    background-color: rgba(0, 56, 118, 0.3);
+    color: #FFFFFF;
+}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
